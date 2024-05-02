@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+.container{
+    width: 850px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: brown !important;
+}
+#navbarSupportedContent a{
+    color: rgb(12, 12, 10);
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid brown;
+}
+#navbarSupportedContent button{
+    background: brown;
+    border-radius: 15px;
+}
+section{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home{
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(https://p4.wallpaperbetter.com/wallpaper/970/607/650/coffee-coffee-cup-hot-drink-minimalism-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#home h1{ 
+    font-size: 50px;
+    color: chocolate;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px chocolate,
+                 0px 2px chocolate,
+                 0px 3px chocolate,
+                 0px 4px chocolate,
+                 0px 5px chocolate,
+                 0px 6px chocolate;
+               
+}
+#home p{
+    font-size: 10px;
+    color: white;
+}
+#home .input-group{
+    width: 70%;
+    height: 45px;
+}
+.signin{
+    background: brown !important;
+    color: white !important;
+}
+
+#about{
+    background-color: blanchedalmond;
+}
+#about h1{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+
